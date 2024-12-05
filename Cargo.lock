@@ -17,6 +17,7 @@ checksum = "294d17c72e0ba59fad763caa112368d0672083779cdebbb97164f4bb4c1e339a"
 [[package]]
 name = "blake2ya"
 version = "0.9.3"
+source = "git+https://github.com/mohanson/blake2ya#25c4fd2cbbcd20335719f8d4769e58c601975a75"
 
 [[package]]
 name = "blake2ya-script"
