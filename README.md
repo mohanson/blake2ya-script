@@ -13,4 +13,4 @@ $ cargo run --release
 # Script log: 98494
 ```
 
-17% faster than [blake2b_ref](https://github.com/jjyr/blake2b-ref.rs).
+23% faster than [blake2b_ref](https://github.com/jjyr/blake2b-ref.rs).
