@@ -16,8 +16,9 @@ checksum = "294d17c72e0ba59fad763caa112368d0672083779cdebbb97164f4bb4c1e339a"
 
 [[package]]
 name = "blake2ya"
-version = "0.9.5"
-source = "git+https://github.com/mohanson/blake2ya#f751fb48a0d97f83e3fcdaae82d0777126f06ad2"
+version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2c32a62e8398837d4ee57d57c14abc9e523769dce76a11c8c3626c351162c7d4"
 
 [[package]]
 name = "blake2ya-script"
@@ -30,11 +31,11 @@ dependencies = [
 
 [[package]]
 name = "ckbes"
-version = "0.118.0"
+version = "0.119.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5b2298d375aab1c61beaadf6c54b772220d3d75c27d0b12067a5ff31492a59b4"
+checksum = "635dada2ad769e9816bbd7eeb15dd90055b1d6a698b3619969df95c0d600c85f"
 dependencies = [
- "blake2b-ref",
+ "blake2ya",
  "linked_list_allocator",
 ]
 

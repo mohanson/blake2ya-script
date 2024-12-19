@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 blake2b-ref = "0.3"
-blake2ya = { git = "https://github.com/mohanson/blake2ya" }
-ckbes = "0.118"
+blake2ya = "1.0"
+ckbes = "0.119"
