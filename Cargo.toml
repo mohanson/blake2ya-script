@@ -1,9 +1,9 @@
 [package]
 name = "blake2ya-script"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
 blake2b-ref = "0.3"
 blake2ya = "1.0"
-ckbes = "0.119"
+ckbes = "0.120"

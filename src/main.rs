@@ -5,7 +5,7 @@ extern crate alloc;
 extern crate ckbes;
 use alloc::format;
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 pub unsafe extern "C" fn main() -> u64 {
     let data = [0; 4096];
     let e = [
