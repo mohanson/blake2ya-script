@@ -8,9 +8,9 @@ To perform this test, you first need to install [ckb-debugger](https://github.co
 $ cargo run --release
 
 # Script log: bench blake2b_ref
-# Script log: 91370
+# Script log: 90682
 # Script log: bench blake2ya
-# Script log: 73922
+# Script log: 68534
 ```
 
-23% faster than [blake2b_ref](https://github.com/jjyr/blake2b-ref.rs).
+25% faster than [blake2b_ref](https://github.com/jjyr/blake2b-ref.rs).
